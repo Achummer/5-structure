@@ -19,6 +19,17 @@ body {
 .nav-link {
     color: white;
 }
+.nav-link:hover{
+    background-color: #fefefe;
+    color:black;
+}
+.nav-link:active{
+    background-color: rgb(0, 253, 168);
+}
+.nav-link:focus {
+    background-color:aqua;
+    font-size: 30px;
+}
 
 .main-content {
     padding: 30px;
